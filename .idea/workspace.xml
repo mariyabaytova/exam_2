@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f6ec2f8-86bd-472c-9395-16a61fe50026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefenition/TestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/test.feature" afterDir="false" />
+    <list default="true" id="9f6ec2f8-86bd-472c-9395-16a61fe50026" name="Changes" comment="commit1">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefenition/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefenition/TestSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +43,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "C:/Users/Mariya/IdeaProjects/JiraiFellow",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mariya\IdeaProjects\Cucumberwh4\src\test\java" />
       <recent name="C:\Users\Mariya\IdeaProjects\Cucumberwh4\src\test\resources\Features" />
     </key>
   </component>
@@ -145,10 +145,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="Cucumber Java.Feature: test (1)" />
-        <item itemvalue="Cucumber Java.Scenario: 01.1 Получение чисел a и b" />
-        <item itemvalue="Cucumber Java.Feature: test" />
-        <item itemvalue="Cucumber Java.Scenario: 01.2 Получение суммы чисел a и b" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676811069854</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit1">
+      <created>1676900214305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676900214305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,15 +178,12 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RunnerTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>
