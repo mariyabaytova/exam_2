@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f6ec2f8-86bd-472c-9395-16a61fe50026" name="Changes" comment="commit2">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.properties" afterDir="false" />
+    <list default="true" id="9f6ec2f8-86bd-472c-9395-16a61fe50026" name="Changes" comment="commit3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefenition/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefenition/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/allure.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678132537451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit3">
+      <created>1678134323035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678134323035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +190,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit3" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
