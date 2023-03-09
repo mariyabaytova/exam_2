@@ -2,6 +2,8 @@ package StepDefenition;
 
 //import io.cucumber.java.ru.Дано;
 import Hooks.WebHooks;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import io.cucumber.java.ru.Когда;
 import io.cucumber.java.ru.Тогда;
 //import org.junit.runner.RunWith;
@@ -11,23 +13,21 @@ import io.qameta.allure.Step;
 public class TestSteps extends WebHooks {
     public static int Aa;
     public static int Bb;
-    public static int sum;
+    public static int sum = Aa + Bb;
+    public static int summa = Aa + Bb;
 
     @Step("Пользователь вводит числа")
-    @Когда("Пользователь вводит {int} и {int}")
+    @When("Пользователь вводит {int} и {int}")
     public void пользователь_вводит(Integer Bb, Integer Aa) {
         this.Bb = Bb;
         this.Aa = Aa;
     }
     @Step("Получение суммы")
-    @Тогда("Получить сумму")
-    public void получить_сумму() {
-        sum = Aa + Bb;
+    @Then("Получить сумму {int}")
+    public void получить_сумму(Integer summa) {
+        this.summa = summa;
+
     }
-    @Step("Получение результата")
-    @Тогда("Получить результат")
-    public void получить_результат() {
-         System.out.println(sum);
-    }
+
 }
 
